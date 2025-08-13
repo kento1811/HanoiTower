@@ -4,8 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <H1> HANOI TOWER</H1>
+    <h2 id = "step">step : 0</h2>
+    <div id = "main">
+        <canvas id = "mainCanvas" ></canvas>
+    </div>
+
+    <div id="setting">
+        <div id = "DisAmount">
+            <label>3 <input type="radio" name="Disc" value="3" checked></label>
+            <label>4 <input type="radio" name="Disc" value="4"></label>
+            <label>5 <input type="radio" name="Disc" value="5"></label>
+        </div>
+
+        <input type="button" value="Start" class = "button1" onclick="startBut()">
+        <input type="button" value="Reset" class = "button1" onclick="resetBut()">
+    </div>
+    <script src="index.js"></script>
 </body>
 </html>
