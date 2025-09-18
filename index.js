@@ -8,6 +8,10 @@ let selected = document.querySelector('input[name="Disc"]:checked');
 mainCanvas.width = window.innerWidth*(3/4)*(3/4);
 mainCanvas.height = window.innerHeight*(3/4)*(3/4);
 
+ctx.fillStyle = 'black';
+ctx.fillRect(0,0,mainCanvas.width,mainCanvas.height);
+
+
 let width = mainCanvas.width;
 let height = mainCanvas.height;
 
